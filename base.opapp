@@ -20,19 +20,19 @@ website = http://suedhang.ch/de/
 
 
 [template BDI 6 12]
-__opapp_include(../lib/polymer/index.m4)
+__opapp_include(lib/polymer/index.m4)
 __opapp_include(elements/element-bdi.html)
 __opapp_include(elements/view.html)
 
 
 [template BDI_simple_score 6 6]
 <style>
-	__opapp_include(../lib/css/set/optinomic_material_bootstrap.m4)
+	__opapp_include(lib/css/set/optinomic_material_bootstrap.m4)
 	__opapp_include(style.css)
 </style>
 __opapp_include(templates/score.html)
 <script>
-	__opapp_include(../lib/js/optinomic/data_module/optinomic_app_api.m4)
+	__opapp_include(lib/js/optinomic/data_module/optinomic_app_api.m4)
 	__opapp_include(main.js)
 </script>
 
